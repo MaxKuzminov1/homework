@@ -53,7 +53,7 @@ void enter_data()
 
 void output_data()
 {
-    cout<<"ID : ";
+    cout<<"ID  : ";
     cout << a10.id << endl;
 
     cout<<"INFO : ";

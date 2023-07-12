@@ -9,10 +9,9 @@ int main()
     while (!cin.eof())
     {
         cin.getline(num, 10000);
-        for (int i = strlen(num); i >= 0; i--)
+        for (int y = strlen(num); y >= 0; y--)
         {
-            cout << num[i];
+            cout << num[y];
         }
     }
-    return 0;
 }
