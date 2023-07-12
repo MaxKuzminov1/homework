@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    char num[100000];
+    char num[10000];
     while (!cin.eof())
     {
         cin.getline(num, 10000);

@@ -23,7 +23,7 @@ void swapWords(char* sentence) {
     
     char* nextWord;
 
-    while (nextWord = strtok(NULL, "  ")) {
+    while (nextWord = strtok(NULL, " ")) {
         int nextWord_Length_vowels = number_vowels(nextWord);
         
         if (nextWord_Length_vowels == word_Length_vowels) {

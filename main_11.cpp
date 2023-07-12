@@ -24,7 +24,7 @@ void menu()
 {
     
     int num;
-    cout << "Choose what you want to do with the table\n enter data(1), output data(2)\n";
+    cout << "Choose what you want to do with the table\n enter data(1), output data(2) \n";
     cin >> num;
     
     
