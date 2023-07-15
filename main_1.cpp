@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-    char num[10000];
+    char num[100000];
     while (!cin.eof())
     {
-        cin.getline(num, 10000);
+        cin.getline(num, 100000);
         for (int y = strlen(num); y >= 0; y--)
         {
             cout << num[y];
